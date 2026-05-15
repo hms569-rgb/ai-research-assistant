@@ -1,0 +1,32 @@
+
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# FAISS index (generated locally)
+vectorstore/faiss_index/
+*.faiss
+*.pkl
+
+# PDFs (your personal data, don't commit)
+data/pdfs/*.pdf
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db

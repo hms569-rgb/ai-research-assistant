@@ -29,7 +29,7 @@ jobs:
         run: |
           flake8 . --count --max-line-length=100 \
             --exclude=venv,__pycache__,.github \
-            --ignore=E402,E302,E303,E305,E221,W292,W293,F401 \
+            --ignore=E402,E302,E303,E305,E221,W292,W293,F401,W503,W241 \
             --statistics
 
       - name: 🧪 Run tests

@@ -41,7 +41,7 @@ def format_mode_label(mode: str) -> str:
     """
     labels = {
         "beginner": "🟢 Beginner",
-        "expert":   "🔵 Expert",
+        "expert": "🔵 Expert",
     }
     return labels.get(mode, mode)
 
